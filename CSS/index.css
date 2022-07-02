@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url(../BG/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 22px;
+}
+
+.img ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.img ul li a:hover {
+    color: cyan;
+}
+
+.name {
+    font-style: oblique;
+    padding: 10px 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.detail {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+.icon li {
+    font-size: 20px;
+    padding: 10px 10px;
+    display: inline-block;
+}
+
+.icon li a {
+    color: white;
+}
+
+.icon li a:hover {
+    color: cyan;
+    margin-top: 20px;
+}
+
+
+.mid {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 {
+    width: 400px;
+}
+
+.col2 {
+    width: calc(100% - 415px);
+}
+
+
+
+.col1 img{
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 40px;
+    height: 50%;
+}
+.col1 img:hover{
+    transform: scale(1.1);
+}
+
+.col2 h1 {
+    margin-bottom: 20px;
+}
+
+.col2 p {
+    line-height: 40px;
+    text-align: center;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.col2 .skill {
+    margin-top: 50px;
+}
+.col2 .allskill{
+    display: flex;
+    justify-content: space-between;
+}
+.col2 .skill ul li {
+    font-size: 25px;
+    list-style-type: none;
+    padding: 20px;
+}
+
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.payment .btn button{
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px black;
+    cursor: pointer;
+}
+.payment .btn button:hover{
+    transform: scale(1.1);
+}
+.payment-logo{
+    width: 130px;
+    height: 50px;
+}
+.payment-logo img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.payment-logo img:hover{
+    transform: scale(1.1);
+}
+.info h1{
+    margin-left: 15px;
+}
+.allskill li:hover{
+    color: orange;
+    cursor: pointer;
+}
